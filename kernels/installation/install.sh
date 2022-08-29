@@ -1,8 +1,7 @@
 #!/bin/sh
 
 echo "Downloading required kernels. . . "
-mkdir kernels
-cd kernels
+cd ..
 echo "====================================================================================="
 curl -O https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de430.bsp 
 echo "-------------------------------------------------------------------------------------"
